@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="2.5.0.91635" />
+    <PackageReference Include="Prism.DryIoc.Forms" Version="7.0.0.168-pre" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\PrismNavApp.Core.Interfaces\PrismNavApp.Core.Interfaces.csproj" />
+    <ProjectReference Include="..\..\PrismNavApp.Core\PrismNavApp.Core.csproj" />
+    <ProjectReference Include="..\..\PrismNavApp.Modules.Attachments\PrismNavApp.Modules.Attachments.csproj" />
+    <ProjectReference Include="..\..\PrismNavApp.Modules.Viewer\PrismNavApp.Modules.Viewer.csproj" />
+  </ItemGroup>
+
+</Project>
